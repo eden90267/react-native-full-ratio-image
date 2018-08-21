@@ -1,4 +1,4 @@
-# react-native-ratio-width-image
+# react-native-full-ratio-image
 
 擴充 Image 組件，提供以下功能
 
@@ -17,13 +17,13 @@
 ## Installation
 
 ```shell
-$ npm install react-native-ratio-width-image
+$ npm install react-native-full-ratio-image
 ```
 
 ## Usage
 
 ```javascript
-import RatioWidthImage from 'react-native-ratio-width-image;
+import FullRatioImage from 'react-native-full-ratio-image';
 ```
 
 必須提供原始圖片寬高 props 以利該擴充 Image 組件可自動計算等比例圖片縮放。
@@ -49,7 +49,7 @@ class SignInScreen extends Component {
     return (
       <View style={[globalStyles.container, globalStyles.center, {backgroundColor: primaryColor}]}>
         <StatusBar barStyle="light-content"/>
-        <RatioWidthImage
+        <FullRatioImage
           originalWidth={LOGO_WIDTH}
           originalHeight={LOGO_HEIGHT}
           marginX="30%"
