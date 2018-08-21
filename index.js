@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {View, Image, Dimensions} from 'react-native';
 
-class FullWidthImage extends Component {
+class FullRatioImage extends Component {
 
   constructor(props) {
     super(props);
@@ -50,7 +50,7 @@ const getResponsiveSize = (originWidth, originHeight, options = {marginX: 0}) =>
   }
 };
 
-FullWidthImage.propTypes = {
+FullRatioImage.propTypes = {
   originalWidth: PropTypes.number.isRequired,
   originalHeight: PropTypes.number.isRequired,
   marginX: PropTypes.oneOfType([
@@ -58,8 +58,8 @@ FullWidthImage.propTypes = {
     PropTypes.number
   ])
 };
-FullWidthImage.defaultProps = {
+FullRatioImage.defaultProps = {
   marginX: 0
 };
 
-export default FullWidthImage;
+export default FullRatioImage;
