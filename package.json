@@ -1,0 +1,32 @@
+{
+  "name": "react-native-full-width-image",
+  "version": "1.0.0",
+  "description": "擴充 Image 組件，提供自適應全屏寬度並按等比例縮放、屏幕縱橫比例維持以及寬度外距屬性設置",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eden90267/react-native-full-width-image.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "width",
+    "100%",
+    "image",
+    "full-width"
+  ],
+  "author": "eden90267@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eden90267/react-native-full-width-image/issues"
+  },
+  "homepage": "https://github.com/eden90267/react-native-full-width-image#readme",
+  "dependencies": {
+  }
+}
