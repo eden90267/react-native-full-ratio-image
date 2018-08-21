@@ -8,9 +8,11 @@
   - pt 設置
   - 百分比設置
 
-放置 Logo 用 Image 非常適合。以下範例圖片透過 `width: '70%'` 方式：
+放置 Logo 用 Image 非常適合。以下範例圖片透過 `width: '70%'` 方式，並隨縱橫比例維持其設置的寬度：
 
 ![](https://imgur.com/4ooks7K.png)
+
+![](https://imgur.com/bOVvHv1.png)
 
 ## Installation
 
