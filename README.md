@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-native-full-ratio-image.svg)](https://badge.fury.io/js/react-native-full-ratio-image)
+
 # react-native-full-ratio-image
 
 擴充 Image 組件，提供以下功能
