@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-native-full-ratio-image.svg)](https://badge.fury.io/js/react-native-full-ratio-image)
+
 # react-native-full-ratio-image
 
 擴充 Image 組件，提供以下功能
@@ -47,7 +49,7 @@ options props：
 
 - marginX:number|string
 
-可設置 pt 數字或百分比，比如以下範例設置外距為 '30%'，讓該圖片以父元件寬度保持 `width: '70%'`。
+寬度外距 (marginLeft + merginRight = marginX)。可設置 pt 數字或百分比，比如以下範例設置外距為 '30%'，讓該圖片以父元件寬度保持 `width: '70%'`。
 
 ```javascript
 const LOGO_WIDTH = 3840;
