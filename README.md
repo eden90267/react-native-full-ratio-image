@@ -12,29 +12,26 @@
 
 放置 Logo 用 Image 非常適合。以下範例圖片透過 `width: '70%'` 方式，並隨縱橫比例維持其設置的寬度：
 
-![](https://imgur.com/4ooks7K.png)
-
-![](https://imgur.com/bOVvHv1.png)
+<img src="https://imgur.com/4ooks7K.png" width="300" height="533"/>
+<img src="https://imgur.com/bOVvHv1.png" width="533" height="300"/>
 
 ## What happened ?
 
 在沒有該擴充 Image 的使用下，一般要能自適應圖片通常會使用寬高百分比，但寬高百分比將會帶來以下問題：
 
 - 不同手機載具的螢幕解析將會有不同圖片比例效果
-
-  ![](https://imgur.com/NYAbOxr.png)
-
-  ![](https://imgur.com/9QJSr1J.png)
+  
+  <img src="https://imgur.com/NYAbOxr.png" width="300" height="533"/>
+  <img src="https://imgur.com/9QJSr1J.png" width="300" height="649"/>
 
 - Android 的 keyboard 將會在彈出鍵盤避免擋住當前的視圖，自動調整視圖的位置，導致百分比設置圖片的寬高將會是不符常規的比例呈現 (寬高被壓縮)
 
-  ![](https://imgur.com/vJfec42.png)
+  <img src="https://imgur.com/vJfec42.png" width="300" height="481"/>
 
 - 圖片寬高百分比並不會針對手機縱橫使用自動調整比例，需要 reload
 
-  ![](https://imgur.com/gVL3Lwp.png)
-
-  ![](https://imgur.com/JLv9jzk.png)
+  <img src="https://imgur.com/gVL3Lwp.png" width="300" height="649"/>
+  <img src="https://imgur.com/JLv9jzk.png" width="533" height="300"/>
 
 ## Installation
 
