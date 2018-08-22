@@ -21,7 +21,15 @@
 在沒有該擴充 Image 的使用下，一般要能自適應圖片通常會使用寬高百分比，但寬高百分比將會帶來以下問題：
 
 - 不同手機載具的螢幕解析將會有不同圖片比例效果
+
+  ![](https://imgur.com/NYAbOxr.png)
+
+  ![](https://imgur.com/9QJSr1J.png)
+
 - Android 的 keyboard 將會在彈出鍵盤避免擋住當前的視圖，自動調整視圖的位置，導致百分比設置圖片的寬高將會是不符常規的比例呈現 (寬高被壓縮)
+
+  ![](https://imgur.com/vJfec42.png)
+
 - 圖片寬高百分比並不會針對手機縱橫使用自動調整比例，需要 reload
 
   ![](https://imgur.com/gVL3Lwp.png)
